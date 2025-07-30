@@ -48,7 +48,7 @@ Example `.prototools` file:
 solc = "0.8.20"
 
 [plugins]
-solc = "https://raw.githubusercontent.com/xurvan/proto-toml-plugins/master/plugins/solc.yml"
+solc = "https://raw.githubusercontent.com/xurvan/proto-plugins/master/plugins/solc.yml"
 ```
 
 ## Contributing

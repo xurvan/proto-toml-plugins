@@ -1,0 +1,18 @@
+# A YAML plugin for proto:
+# https://moonrepo.dev/docs/proto/non-wasm-plugin
+# FIXME: Only support version 1.14.8 on Linux 64 bit
+
+name: abigen
+type: cli
+
+resolve:
+  git-url: https://github.com/ethereum/go-ethereum/
+
+platform:
+  linux:
+    download-file: geth-alltools-linux-amd64-1.14.8-a9523b64.tar.gz
+
+install:
+  download-url: https://gethstore.blob.core.windows.net/builds/geth-alltools-linux-amd64-1.14.8-a9523b64.tar.gz
+  primary:
+    exe-path: geth-alltools-linux-amd64-1.14.8-a9523b64/abigen
